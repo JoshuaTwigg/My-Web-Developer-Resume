@@ -1,0 +1,112 @@
+body{
+    text-align:center;
+    overflow:scroll
+}
+
+.navbar-nav{
+    display:inline-block
+}
+
+.navbar-nav li{
+    display:inline-block;
+    margin-left:20px;
+}
+
+.navbar-dark{
+    background: black;
+}
+
+.about-me{
+    margin-bottom:50px;
+}
+
+.interests{
+    margin-bottom:50px;
+}
+
+#carousel-div{
+    background-color: black;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+#skills{
+    color: white;
+}
+.carousel{
+    background-color:black;
+}
+
+.bootstrap-dashed-borders{
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+
+#border-one{
+    padding:150px;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+#border-two{
+    padding:150px;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+footer{
+    margin-top:100px;
+    background-color: black;
+    color: white;
+}
+
+@keyframes mailrotate{
+    0% {}
+    50% {}
+    100% {transform:rotate(360deg)}
+
+}
+
+@keyframes phonerotate{
+    0% {}
+    50% {}
+    100% {transform:rotate(360deg)}
+
+}
+
+
+
+#mail{
+    margin-right:50px;
+    animation-name:mailrotate;
+    animation-duration:50s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+}
+
+#phone{
+    margin-left:50px;
+    animation-name:phonerotate;
+    animation-duration:50s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+}
+
+#contact{
+    text-decoration: underline;
+}
+
+#portfolio{
+    text-decoration: underline;
+    margin-top:40px;
+}
+
+#git{
+    margin-top:30px;
+    margin-bottom:50px;
+}
